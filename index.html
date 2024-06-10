@@ -4,33 +4,56 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Macbeth Obimpeh">
-        <meta name="description" content="This page contains all the things I am 
-        learning to do as I learn html">
+        <meta name="description" content="This page contains all the things I am learning to do as I learn html">
         <title>My First Web Page</title>
         <link rel="icon" href="html5image.png">
         <link rel="stylesheet" href="main.css" type="text/css">
     </head>
 
     <body>
-        <h1>Hello World!</h1>
+        <h1>My Goals for the year!</h1>
 
         <hr>
 
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a vacation</a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <section id="html">
         <h2>I'm ready to learn HTML</h2>
         <p>This is Macbeth's first web page.</p>
 
-        <h3>Daily Schedule</h3>
-        <p>Let me tell you how:
-            <br>&nbsp;&nbsp;&nbsp;...I learn more about web development.
-            <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule.
-            <br>&nbsp;&nbsp;&nbsp;...I use resources from <abbr title="Mozilla Developer Network">MDN</abbr>.
-        </p>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
+            <ol>
+            <li>...I learn more about web development.</li>
+            <li>...I plan out my schedule.</li>
+            <li>...I use resources from <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a>
+            </abbr>.</li>
+        </ol>
+    </section>
 
         <hr>
 
+        <section id="vacation">
+
         <h2>I Am Also Planning a Vacation</h2>
-        <p>I've nbeen working hard and <em>I really need a getaway</em>.</p>
-        <p>I am currently in <abbr title="West Africa">WA</abbr> 
+        <ul>
+        <li>
+            <p>I've been working hard and <em>I really need a getaway</em>.</p>
+        </li>
+        <li>
+            <p>I am currently in <abbr title="West Africa">WA</abbr> 
             so I want to see the plains and hills of Switzerland .</p>
 
         <h3>Places I would like to visit</h3>
@@ -41,14 +64,29 @@
             Bürgenstock Resort Lake Lucerne, 6363 Obbürgen, Switzerland <br>
             Kurhausstrasse 65, 8032 Zürich, Switzerland
         </address>
-
+    </li>
+    </ul>    
     <!-- TO DO: Add more places-->
         <h3>Places I would like to avoid</h3>
-        <p>Anywhere that is not very noisy. <strong>No way!</strong></p>
-   
+       <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is cold.</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also cold.</dd>
+       </dl>
+    </section>
+
    <hr>
    
-   &lt;&lt;&lt; &copy; Macbeth &gt;&gt;&gt;
+   &lt;&lt;&lt; &copy; <a href="about.html">Macbeth</a> &gt;&gt;&gt;
+
+   <p>
+    <a href="#">Back to top</a>
+   </p>
     </body>
 
 </html>
