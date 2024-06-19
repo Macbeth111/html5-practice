@@ -11,82 +11,123 @@
     </head>
 
     <body>
-        <h1>My Goals for the year!</h1>
+        <header>
+            <h1>My Goals for the year!</h1>
+
+            <nav aria-label="primary nzvigation">
+                <ul>
+                    <li>
+                        <a href="#html">Learning HTML</a>
+                    </li>
+                    <li>
+                        <a href="#vacation">Planning a vacation</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+    <main>
+        <article id="html">
+            <h2>I'm ready to learn HTML</h2>
+            <p>This is Macbeth's first web page.</p>
+            
+                <img src="img/html5image.png" alt="HTML5 
+                Logo" title="I am learning HTML5" width="360" 
+                height="360">
+                <figure>
+                    <figcaption>An Example of HTML5 code</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+           <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                    <ol>
+                    <li>...I learn more about web development.</li>
+                    <li>...I plan out my schedule.</li>
+                    <li>...I use resources from <abbr title="Mozilla Developer Network">
+                        <a href="https://developer.mozilla.org/">MDN</a>
+                    </abbr>.</li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark> number of hours</mark>
+                            I code everyday</summary>
+                            <p>I start at <time datetime="09:00">9 pm</time> and I write 
+                                code for <time datetime="PT1H">1 hour</time>
+                                before bed four times in a week
+                            </p>
+                    </details>
+                </aside>
+           </section>
+        </article>
 
         <hr>
 
-        <nav>
+        <article id="vacation">
+
+            <h2>I Am Also Planning a Vacation</h2>
             <ul>
-                <li>
-                    <a href="#html">Learning HTML</a>
+            <li>
+                <p>I've been working hard and <em>I really need a getaway</em>.</p>
+            </li>
+            <li>
+                <p>I am currently in <abbr title="West Africa">WA</abbr> 
+                so I want to see the plains and hills of Switzerland .</p>
+            <section>
+                    <h3>Places I would like to visit</h3>
+                    <p>I have heard good things about Europe</p>
+            </section>
+                    <figure>
+                        <img src="img/europe.jpg" alt="Image of Europe"
+                         title="I want to visit Europe" width="271" height="186"
+                            loading="lazy">
+                        <figcaption>
+                            Europe Getaway
+                        </figcaption>
+                    </figure>
+                    <p>I've heard good things about going here:</p>
+                    <address>
+                        Grand Hotel Des Bains Kempinski St. Moritz <br>
+                        Bürgenstock Resort Lake Lucerne, 6363 Obbürgen, Switzerland <br>
+                        Kurhausstrasse 65, 8032 Zürich, Switzerland
+                    </address>
+                    <figure>
+                        <img src="img/switzerland.webp" alt="Seitzerland Vacation" title="Switzerland Hotel"
+                        width="509" height="339" loading="lazy">
+                        <figcaption>
+                            Boutique Hotel
+                        </figcaption>
+                    </figure>
                 </li>
-                <li>
-                    <a href="#vacation">Planning a vacation</a>
-                </li>
-            </ul>
-        </nav>
+            </ul>  
+            <!-- TO DO: Add more places-->
+            <section>
+                <h3>Places I would like to avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>cold</strong>!</dd>
 
-        <hr>
+                    <dt>South Pole</dt>
+                    <dd>This is cold.</dd>
 
-        <section id="html">
-        <h2>I'm ready to learn HTML</h2>
-        <p>This is Macbeth's first web page.</p>
-
-        <h3>My Daily Schedule</h3>
-        <p>Let me tell you how:</p>
-            <ol>
-            <li>...I learn more about web development.</li>
-            <li>...I plan out my schedule.</li>
-            <li>...I use resources from <abbr title="Mozilla Developer Network">
-                <a href="https://developer.mozilla.org/">MDN</a>
-            </abbr>.</li>
-        </ol>
-    </section>
-
-        <hr>
-
-        <section id="vacation">
-
-        <h2>I Am Also Planning a Vacation</h2>
-        <ul>
-        <li>
-            <p>I've been working hard and <em>I really need a getaway</em>.</p>
-        </li>
-        <li>
-            <p>I am currently in <abbr title="West Africa">WA</abbr> 
-            so I want to see the plains and hills of Switzerland .</p>
-
-        <h3>Places I would like to visit</h3>
-        <p>I have heard good things about Europe</p>
-        <p>I've heard good things about going here:</p>
-        <address>
-            Grand Hotel Des Bains Kempinski St. Moritz <br>
-            Bürgenstock Resort Lake Lucerne, 6363 Obbürgen, Switzerland <br>
-            Kurhausstrasse 65, 8032 Zürich, Switzerland
-        </address>
-    </li>
-    </ul>    
-    <!-- TO DO: Add more places-->
-        <h3>Places I would like to avoid</h3>
-       <dl>
-            <dt>North Pole</dt>
-            <dd>I hear this is <strong>cold</strong>!</dd>
-
-            <dt>South Pole</dt>
-            <dd>This is cold.</dd>
-
-            <dt>Mountain Tops</dt>
-            <dd>These are also cold.</dd>
-       </dl>
-    </section>
-
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
    <hr>
-   
-   &lt;&lt;&lt; &copy; <a href="about.html">Macbeth</a> &gt;&gt;&gt;
-
-   <p>
-    <a href="#">Back to top</a>
-   </p>
-    </body>
+   <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Macbeth</a> &gt;&gt;&gt;
+        </p>    
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+   </footer>
+</body>
 
 </html>
